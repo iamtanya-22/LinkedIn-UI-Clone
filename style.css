@@ -40,6 +40,7 @@ body{
 }
 .header-right .headerOption:hover{
   color: black;
+  cursor: pointer;
 }
 .headerOption h3{
   font-size: 12px;
@@ -183,6 +184,18 @@ body{
   width: 100%;
   height:400px;
   object-fit: contain;
+}
+.posted{
+  display: flex;
+  flex-direction: row !important;
+}
+.posted img{
+  height: 30px;
+  width: 30px;
+  object-fit: contain;
+  border-radius: 50%;
+  padding: 10px;
+  align-items: left;
 }
 .likes{
   display: flex;
