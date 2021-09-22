@@ -8,6 +8,9 @@ body{
   align-items: center;
   flex-direction: column;
 }
+p{
+  font-size: 20px;
+}
 .header{
   position: sticky;
   width: 100%;
@@ -21,14 +24,15 @@ body{
 }
 .header-left img{
   object-fit: contain;
-  height: 40px;
+  height: 60px;
+  margin: 5px;
 }
 .header-left .header-search{
   display: flex;
   align-items: center;
   border-bottom: none;
   background-color: rgba(185, 189, 206, 0.938);
-  padding: 5px;
+  padding: 15px;
   margin: 5px;
 }
 .header-right{
@@ -38,12 +42,23 @@ body{
 .header-right .headerOption{
   margin: 5px;
 }
+.header-right .headerOption i{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+.headerOption h3{
+ padding: 5px;
+ margin-right: 5px;
+}
 .header-right .headerOption:hover{
   color: black;
   cursor: pointer;
 }
 .headerOption h3{
-  font-size: 12px;
+  font-size: 20px;
+  color: black;
 }
 
 .body-main{
@@ -107,7 +122,7 @@ body{
   padding: 20px;
   border-radius: 20px;
 }
-.sidebar-bottom h3{
+.sidebar-bottom h1{
   padding: 10px;
   text-align: left;
 }
@@ -116,6 +131,7 @@ body{
   color: grey;
   list-style: none;
   text-align: left;
+  font-size: 20px;
 }
 .sidebar-bottom li:hover{
   color: black;
@@ -172,6 +188,7 @@ body{
 }
 .bold{
   font-weight: bold;
+  font-size: 20px;
 }
 .posts{
   margin-bottom: 10px;
@@ -231,11 +248,16 @@ body{
 }
 .right-info li{
   list-style: none;
+  font-size: 20px;
 }
-.right-info h2{
+.right-info h1{
   padding: 10px;
 }
 .right-info p{
   padding-bottom: 5px;
   padding-left: 10px;
+  font-size: 20px;
+}
+h1{
+  padding: 10px;
 }
